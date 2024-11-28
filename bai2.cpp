@@ -11,7 +11,7 @@ int main() {
 
     for (int i = 0; i < n; i++) {
         if (arr[i] == x) {
-            printf("Vi tri phan tu trong mang la: %d\n", i);
+            printf("Vi tri phan tu trong mang la: %d\n", i + 1); 
             found = 1; 
             break; 
         }
