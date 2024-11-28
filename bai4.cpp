@@ -7,10 +7,11 @@ int main() {
         {14, 2, 10, 20}
     };
 
-    int max = arr[0][0];
-    for (int i = 0; i < sizeof(arr)/sizeof(arr[0]); i++)  
-        for (int j = 0; j < sizeof(arr[0])/sizeof(arr[0][0]); j++)  
-            if (arr[i][j] > max) max = arr[i][j];
+    int max = arr[0][0]; 
+    for (int i = 0; i < 3; i++) 
+        for (int j = 0; j < 4; j++)  
+            if (arr[i][j] > max) 
+                max = arr[i][j];  
 
     printf("Phan tu lon nhat trong mang la: %d\n", max);
 
