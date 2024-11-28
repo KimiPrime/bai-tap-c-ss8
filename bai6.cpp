@@ -8,12 +8,11 @@ int main() {
         {13, 14, 15, 16}
     };
 
-    int n = sizeof(matrix) / sizeof(matrix[0]);  
     int sum = 0;  
 
     printf("Cac phan tu tren duong cheo chinh: ");
-    for (int i = 0; i < n; i++) {
-        printf("%d ", matrix[i][i]); 
+    for (int i = 0; i < 4; i++) {
+        printf("%d ", matrix[i][i]);  
         sum += matrix[i][i];         
     }
 
